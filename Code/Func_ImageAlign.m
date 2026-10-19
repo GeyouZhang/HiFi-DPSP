@@ -12,7 +12,7 @@
 % Output:
 % mImg_Align  -- aligned image or phase map
 %
-% Author: Geyou Zhang, University of Electronic Science and Technology of China, 2026/06/01
+% Author: Anonymous Authors, 2026/06/01
 function mImg_Align = Func_ImageAlign(mImg, mdX, mdY, iFrameNum, iFrameTotal)
 mOffsetX = mdX ./ iFrameTotal .* iFrameNum;
 mOffsetY = mdY ./ iFrameTotal .* iFrameNum;

@@ -15,7 +15,7 @@
 % Output:
 % mDeltaPhase -- optical-flow-induced phase deviation
 %
-% Author: Geyou Zhang, University of Electronic Science and Technology of China, 2026/06/01
+% Author: Anonymous Authors, 2026/06/01
 function mDeltaPhase = Func_GetPhaseDeviation(mdX, mdY, mMask, mC, mP, H, W, FSet)
 mPhiRef = FSet .* Func_GenerateRefPhase(mC, mP, H, W);
 [mx, my] = meshgrid(1:W, 1:H);

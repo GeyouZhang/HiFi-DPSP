@@ -14,7 +14,7 @@
 % mXRaw,mYRaw,mZRaw -- raw reconstructed 3D point cloud before optional rectification
 % mPhase            -- unwrapped phase map of the main camera
 %
-% Author: Geyou Zhang, University of Electronic Science and Technology of China, 2026/06/01
+% Author: Anonymous Authors, 2026/06/01
 function [mX, mY, mZ, mXRaw, mYRaw, mZRaw, mPhase] = Func_UnwrapAndCompute3D(mPhaseWrapLeft, mDisparity, mCamera1Rectified, mCamera2Rectified, mProjector, FSet)
 iProjectorWidth = 1280;
 [iCameraHeight, iCameraWidth] = size(mPhaseWrapLeft);

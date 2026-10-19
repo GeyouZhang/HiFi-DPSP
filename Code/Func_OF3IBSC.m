@@ -17,7 +17,7 @@
 % mPhase_BSC_Unwrap_L -- unwrapped BSC phase map of the main camera
 % vmIL              -- optical-flow-aligned fringe image sequence
 %
-% Author: Geyou Zhang, University of Electronic Science and Technology of China, 2026/06/01
+% Author: Anonymous Authors, 2026/06/01
 function [mX, mY, mZ, mPhase_BSC_Unwrap_L, vmIL] = Func_OF3IBSC(vmIL_Raw, mDisparity, mFlowX, mFlowY, mCamera1Rectified, mCamera2Rectified, mProjector, FSet, iBcThresh)
 [iCameraHeight, iCameraWidth, iRawImageNum] = size(vmIL_Raw);
 iImageNum = iRawImageNum - 2;

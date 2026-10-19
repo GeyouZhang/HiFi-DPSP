@@ -11,7 +11,7 @@
 % mPhase      -- optimized wrapped phase map
 % mBc         -- fitted fringe modulation
 %
-% Author: Geyou Zhang, University of Electronic Science and Technology of China, 2026/06/01
+% Author: Anonymous Authors, 2026/06/01
 function [mPhase, mBc] = Func_POS(vmI, mDeltaPhase, NSet, iBcThresh)
 [H, W] = size(mDeltaPhase);
 mPhase = nan(H, W);

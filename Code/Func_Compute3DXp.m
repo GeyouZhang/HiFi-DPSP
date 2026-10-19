@@ -13,7 +13,7 @@
 % mY       -- reconstructed Y coordinate
 % mZ       -- reconstructed Z coordinate
 %
-% Author: Geyou Zhang, University of Electronic Science and Technology of China, 2026/06/01
+% Author: Anonymous Authors, 2026/06/01
 function [mX, mY, mZ] = Func_Compute3DXp(mCamera1, mCamera2, mXp, dX, dY)
 if nargin < 4 || isempty(dX)
     dX = 0;

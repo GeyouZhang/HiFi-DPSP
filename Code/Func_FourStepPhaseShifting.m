@@ -9,7 +9,7 @@
 % mPhi      -- wrapped phase map in the range [0, 2*pi)
 % mBc       -- fringe modulation
 %
-% Author: Geyou Zhang, University of Electronic Science and Technology of China, 2026/06/01
+% Author: Anonymous Authors, 2026/06/01
 function [mPhi, mBc] = Func_FourStepPhaseShifting(vmI, iBcThresh)
 mI0 = vmI(:, :, 1);
 mI1 = vmI(:, :, 2);

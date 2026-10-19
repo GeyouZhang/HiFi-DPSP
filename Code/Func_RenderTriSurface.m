@@ -16,7 +16,7 @@
 % Output:
 % hSurface       -- handle of the rendered trisurf object
 %
-% Author: Geyou Zhang, University of Electronic Science and Technology of China, 2026/06/01
+% Author: Anonymous Authors, 2026/06/01
 function hSurface = Func_RenderTriSurface(hAxes, mX, mY, mZ, vClim, vXlim, vYlim, vZlim, fMaxEdgeLength)
 if nargin < 9 || isempty(fMaxEdgeLength)
     fMaxEdgeLength = 10;

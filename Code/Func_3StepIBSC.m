@@ -10,7 +10,7 @@
 % mPhi      -- motion-error-free wrapped phase obtained through I-BSC
 % mBc       -- modulation of the compensated fringe sequence
 %
-% Author: Geyou Zhang, University of Electronic Science and Technology of China, 2026/06/01
+% Author: Anonymous Authors, 2026/06/01
 function [mPhi, mBc] = Func_3StepIBSC(vmI, iBcThresh)
 [~, ~, iImageNum] = size(vmI);
 iBinomialOrder = iImageNum - 3;
